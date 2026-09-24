@@ -1,0 +1,383 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f8;
+    color: #1f2937;
+}
+
+.page {
+    padding: 32px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    color: #111827;
+}
+
+.component {
+    margin-bottom: 56px;
+}
+
+.component h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+button {
+    font: inherit;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.primary-btn {
+    border: 1px solid #2563eb;
+
+    background-color: #2563eb;
+    color: white;
+}
+
+.primary-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.secondary-btn {
+    border: 1px solid #d1d5db;
+
+    background-color: white;
+    color: #374151;
+}
+
+.secondary-btn:hover {
+    background-color: #f3f4f6;
+}
+
+
+
+
+.navbar {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 24px;
+
+    padding: 18px 20px;
+
+    background-color: white;
+
+    border-radius: 12px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+
+    color: #2563eb;
+}
+
+.nav-links {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+
+    color: #374151;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
+
+.nav-actions {
+    display: flex;
+
+    gap: 10px;
+
+    margin-left: auto;
+}
+
+
+
+
+.cards {
+    display: flex;
+
+    align-items: stretch;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 30%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 24px;
+
+    background-color: white;
+
+    border-radius: 12px;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    line-height: 1.6;
+}
+
+.card button {
+    align-self: flex-start;
+
+    margin-top: auto;
+}
+
+
+
+
+.pagination {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 16px;
+
+    padding: 18px 20px;
+
+    background-color: white;
+
+    border-radius: 12px;
+}
+
+.pagination-space {
+    flex: 1;
+}
+
+.page-controls {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+.page-button {
+    border: 1px solid #d1d5db;
+
+    background-color: white;
+
+    color: #374151;
+}
+
+.page-button:hover {
+    background-color: #f3f4f6;
+}
+
+.page-button.active {
+    border-color: #2563eb;
+
+    background-color: #2563eb;
+
+    color: white;
+}
+
+.result-count {
+    flex: 1;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    color: #6b7280;
+}
+
+
+
+
+.comment {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 16px;
+
+    padding: 24px;
+
+    background-color: white;
+
+    border-radius: 12px;
+}
+
+.avatar {
+    flex: 0 0 56px;
+
+    width: 56px;
+    height: 56px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #2563eb;
+    color: white;
+
+    font-weight: bold;
+}
+
+.comment-content {
+    flex: 1;
+
+    min-width: 0;
+}
+
+.comment-header {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
+
+.comment-header span {
+    color: #6b7280;
+
+    font-size: 14px;
+}
+
+.comment-content p {
+    margin: 0;
+
+    line-height: 1.6;
+}
+
+
+
+.pricing {
+    display: flex;
+
+    align-items: stretch;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.price-card {
+    flex: 1 1 30%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 24px;
+
+    background-color: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 12px;
+}
+
+.price-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    color: #111827;
+}
+
+.price span {
+    font-size: 14px;
+    font-weight: normal;
+
+    color: #6b7280;
+}
+
+.price-card ul {
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    padding-left: 20px;
+
+    line-height: 1.8;
+}
+
+.price-card button {
+    align-self: flex-start;
+
+    margin-top: auto;
+}
+
+.recommended {
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+    border: 2px solid #2563eb;
+}
+
+.badge {
+    align-self: flex-start;
+
+    margin-bottom: 14px;
+
+    padding: 6px 10px;
+
+    border-radius: 20px;
+
+    background-color: #dbeafe;
+    color: #1d4ed8;
+
+    font-size: 13px;
+    font-weight: bold;
+}
